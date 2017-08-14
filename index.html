@@ -8,16 +8,23 @@
 
         <!-- Bootstrap CSS  -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-        <link href="css/style.css" rel="stylesheet">
+        <link href="assets/css/style.css" rel="stylesheet">
     </head>
     <body>
     
-
+        <div class="jumbotron jumbotron-fluid text-center">
         <div class="container">
-            <div class="row">
+            <h1 class="display-3">Drum Kit</h1>
+            <p class="lead">Press a key to begin</p>
+        </div>
+        </div>
 
-                <div class="keys">
+  <div class="container">
 
+
+            <div class="row keys text-center d-flex flex-row">
+
+                    
                     <div data-key="65" class="key">
                         <kbd>A</kbd>
                         <span class="sound">clap</span>
@@ -61,19 +68,25 @@
                      <div data-key="76" class="key">
                         <kbd>L</kbd>
                         <span class="sound">tink</span>
-                    </div>               
+                    </div>   
+                              
 
 
 
-                </div><!--/. keys -->
 
             </div><!--/. row  -->
-        </div><!--/. container  -->
+  </div>
+
 
         <audio data-key="65" src="assets/sounds/clap.wav"></audio>
-        
-
-
+        <audio data-key="83" src="assets/sounds/hihat.wav"></audio>
+        <audio data-key="68" src="assets/sounds/kick.wav"></audio>
+        <audio data-key="70" src="assets/sounds/openhat.wav"></audio>
+        <audio data-key="71" src="assets/sounds/boom.wav"></audio>
+        <audio data-key="72" src="assets/sounds/ride.wav"></audio>
+        <audio data-key="74" src="assets/sounds/snare.wav"></audio>
+        <audio data-key="75" src="assets/sounds/tom.wav"></audio>
+        <audio data-key="76" src="assets/sounds/tink.wav"></audio>
 
 
         <!-- jQuery  -->
@@ -82,6 +95,9 @@
         
         <!-- Bootstrap Javascritp  -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
+        <!-- Drumkit Javascript  -->
+        <script src="assets/js/drumkit.js"></script>
 
     </body>
 </html>

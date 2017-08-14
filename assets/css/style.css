@@ -1,0 +1,45 @@
+
+body {
+    height: 100%;
+    background-color: black;
+    background: url('../images/concert.jpg') no-repeat;
+    background-size: cover;
+}
+
+
+kbd {
+    display: block;
+}
+
+.key {
+    width: 100px;
+    border: 2px solid #fff;
+    margin: 10px;
+    transition: all 0.07s;
+   
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 10px #ffc600;
+}
+
+.jumbotron {
+    background: none;
+    color: #fff;
+}
+
+.jumbotron h1 {
+    text-transform: uppercase;
+}
+
+
+
+.sound {
+    color: #ffc600;
+    text-transform: uppercase;
+}
+
+
+
